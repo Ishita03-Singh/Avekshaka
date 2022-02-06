@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "863856111626",
+    "firebase_url": "https://avekshaka-8deda-default-rtdb.firebaseio.com",
+    "project_id": "avekshaka-8deda",
+    "storage_bucket": "avekshaka-8deda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863856111626:android:de09734b83627ec5a8eff3",
+        "android_client_info": {
+          "package_name": "com.example.avekshaka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863856111626-ebidjqs0og33i7dba7um377u237s3b3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ5NdgOalVORBL9qMNt5CMDA4x6KO2pC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863856111626-ebidjqs0og33i7dba7um377u237s3b3s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

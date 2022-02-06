@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".singupScreen">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:textSize="20sp"
+        android:layout_margin="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@id/text"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+                android:id="@+id/NameTV"
+                android:hint="Full Name"
+                android:padding="10dp"
+                android:drawablePadding="5dp"
+                android:layout_margin="15dp"
+                android:textColorHint="@color/main04"
+                android:textColor="@color/main01"
+                android:inputType="textPersonName|textCapWords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sharp_rect02"
+                />
+
+            <EditText
+                android:id="@+id/Phonetv"
+                android:layout_below="@id/NameTV"
+                android:hint="Phone No."
+                android:padding="10dp"
+                android:drawablePadding="5dp"
+                android:layout_margin="15dp"
+                android:inputType="phone"
+                android:layout_width="match_parent"
+                android:textColorHint="@color/main04"
+                android:textColor="@color/main01"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sharp_rect02"
+                />
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="credential for reminder cancellations"
+                android:textSize="14sp"
+                android:layout_below="@id/Phonetv"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/black"/>
+            <EditText
+                android:id="@+id/credentialtv"
+                android:layout_below="@id/text1"
+                android:hint="credential"
+                android:padding="10dp"
+                android:drawablePadding="5dp"
+                android:layout_margin="15dp"
+                android:inputType="textImeMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/main04"
+                android:textColor="@color/main01"
+                android:background="@drawable/sharp_rect02"
+                />
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your memory"
+                android:textSize="14sp"
+                android:layout_below="@id/credentialtv"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/black"/>
+            <ImageView
+
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/memory"
+                android:layout_below="@id/text2"
+                android:id="@+id/memoryIV"/>
+
+            <Button
+                android:id="@+id/savechangesbtn"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:text="Save Changes"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/main01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/memoryIV"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:minWidth="120dp"
+                ></Button>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

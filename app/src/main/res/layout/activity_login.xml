@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".LoginActivity">
+    <TextView
+        android:id="@+id/nameofapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/main01"
+        android:fontFamily="sans-serif"
+        android:layout_alignParentStart="true"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_baseline_contact_support_24"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/grandma"
+        android:layout_below="@id/nameofapp"
+        android:layout_margin="0dp"/>
+
+    <RelativeLayout
+        android:id="@+id/rr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sharp_rect"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/tt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tx"
+            android:fontFamily="sans-serif"
+            android:layout_below="@id/tt1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Helping your loved ones by providing a “Virtual Guardian System”  and provide important functionalities in case of Emergency"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/loginButton"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/main03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tx"
+            android:textColor="@color/main01"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/sharp_rect02"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:minWidth="120dp"
+            ></Button>
+        <Button
+            android:id="@+id/Signupbtn"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:text="Sign-up"
+            android:textColor="@color/main01"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/main03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/sharp_rect02"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:minWidth="120dp"
+            android:layout_below="@id/loginButton"
+            ></Button>
+        <TextView
+            android:fontFamily="sans-serif"
+            android:layout_below="@id/Signupbtn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Looking for help ?"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:gravity="center_horizontal" />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
