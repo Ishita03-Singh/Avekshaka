@@ -5,11 +5,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/main06"
+    android:background="@color/main05"
     tools:context=".NotesActivity">
 
 
-    <!--Adding a ListView -->
+
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
@@ -19,7 +19,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView2" />
 
-    <!--Adding a TextView -->
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"

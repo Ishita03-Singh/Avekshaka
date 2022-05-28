@@ -3,8 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/white"
+    android:background="@color/main05"
     android:layout_height="match_parent"
+
     tools:context=".HomePage">
     <RelativeLayout
         android:id="@+id/ToolbarRL"
@@ -62,12 +63,13 @@
         android:id="@+id/excerciseIV"
         android:layout_width="160dp"
         android:layout_height="160dp"
-        android:background="@drawable/sharp_rect02"
+        android:background="@drawable/sharp_rect03"
         app:layout_constraintTop_toBottomOf="@id/ToolbarRL"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/notesIV"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="50dp"
+        android:backgroundTint="#ffd54f"
         android:src="@drawable/excercise"/>
     <TextView
         android:id="@+id/text01"
@@ -85,13 +87,14 @@
         android:id="@+id/notesIV"
         android:layout_width="160dp"
         android:layout_height="160dp"
-        android:background="@drawable/sharp_rect02"
+        android:background="@drawable/sharp_rect03"
         app:layout_constraintTop_toBottomOf="@id/ToolbarRL"
         app:layout_constraintStart_toEndOf="@id/excerciseIV"
         app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="#9fa8da"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="10dp"
-        android:src="@drawable/notevector"/>
+        android:src="@drawable/notesimage"/>
     <TextView
         android:id="@+id/text02"
         app:layout_constraintTop_toBottomOf="@id/notesIV"
@@ -108,13 +111,14 @@
         android:id="@+id/reminderIV"
         android:layout_width="160dp"
         android:layout_height="160dp"
-        android:background="@drawable/sharp_rect02"
+        android:background="@drawable/sharp_rect03"
         app:layout_constraintTop_toBottomOf="@id/notesIV"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/notesIV"
+        android:backgroundTint="#90caf9"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="50dp"
-        android:src="@drawable/remindervector"/>
+        android:src="@drawable/reminder"/>
     <TextView
         android:id="@+id/text03"
         app:layout_constraintTop_toBottomOf="@id/reminderIV"

@@ -16,7 +16,7 @@
         android:layout_margin="30dp"
         android:textStyle="bold"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/black"/>
+        android:textColor="@color/main02"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -33,12 +33,13 @@
                 android:padding="10dp"
                 android:drawablePadding="5dp"
                 android:layout_margin="15dp"
-                android:textColorHint="@color/main04"
-                android:textColor="@color/main01"
+                android:textColorHint="@color/black"
+                android:textColor="@color/main02"
                 android:inputType="textPersonName|textCapWords"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/sharp_rect02"
+                android:background="@drawable/sharp_rect03"
+                android:backgroundTint="@color/main05"
                 />
 
             <EditText
@@ -50,10 +51,11 @@
                 android:layout_margin="15dp"
                 android:inputType="phone"
                 android:layout_width="match_parent"
-                android:textColorHint="@color/main04"
-                android:textColor="@color/main01"
+                android:textColorHint="@color/black"
+                android:textColor="@color/main02"
                 android:layout_height="wrap_content"
-                android:background="@drawable/sharp_rect02"
+                android:background="@drawable/sharp_rect03"
+                android:backgroundTint="@color/main05"
                 />
             <TextView
                 android:id="@+id/text1"
@@ -75,8 +77,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColorHint="@color/main04"
-                android:textColor="@color/main01"
-                android:background="@drawable/sharp_rect02"
+                android:textColor="@color/main05"
+                android:background="@drawable/sharp_rect03"
+                android:backgroundTint="@color/main02"
                 />
             <TextView
                 android:id="@+id/text2"
@@ -101,7 +104,7 @@
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:text="Save Changes"
                 android:layout_margin="20dp"
-                android:backgroundTint="@color/main01"
+                android:backgroundTint="@color/main03"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/memoryIV"

@@ -15,7 +15,7 @@
 
     android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
     android:id="@+id/add_reminder_layout_top"
-    android:background="@color/main04"
+    android:background="@color/main02"
     android:orientation="vertical"
     android:layout_height="148dp">
 
@@ -29,9 +29,9 @@
         android:layout_marginTop="10dp"
         android:minLines="4"
         android:gravity="top|left"
-        android:textColor="@color/black"
+        android:textColor="@color/main05"
         android:scrollHorizontally="false"
-        android:textColorHint="@color/main01"
+        android:textColorHint="@color/main05"
         android:inputType="textCapWords|textMultiLine"
         android:layout_marginRight="16dp"
         android:layout_height="120dp"/>
@@ -323,8 +323,8 @@
     android:clickable="true"
     android:onClick="selectFab2"
     fab:fab_icon="@drawable/ic_baseline_notifications_on_24"
-    fab:fab_colorNormal="@color/main02"
-    fab:fab_colorPressed="@color/main01"
+    fab:fab_colorNormal="@color/main03"
+    fab:fab_colorPressed="@color/main02"
     app:fab_size="normal"
     android:layout_alignParentLeft="true"
     android:layout_marginTop="155dp"

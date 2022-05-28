@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".NoInternetActivity">
 
 
@@ -27,7 +28,7 @@
         android:fontFamily="sans-serif"
         android:layout_marginTop="3dp"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/main05"
+        android:textColor="@color/main02"
         android:textSize="15dp"/>
     <Button
         android:layout_below="@id/dtt"
@@ -39,8 +40,8 @@
         android:layout_marginTop="30dp"
         android:layout_centerHorizontal="true"
         style="@style/Widget.AppCompat.Button.Colored"
-        android:backgroundTint="@color/main05"
-        android:textColor="@color/main01"
+        android:backgroundTint="@color/main03"
+        android:textColor="@color/white"
         android:textSize="15dp"/>
     <ImageView
         android:id="@+id/iconTV"

@@ -6,37 +6,26 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     tools:context=".LoginActivity">
-    <TextView
-        android:id="@+id/nameofapp"
+
+    <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/app_name"
-        android:textColor="@color/main01"
-        android:fontFamily="sans-serif"
-        android:layout_alignParentStart="true"
-        android:layout_margin="20dp"
-        android:textSize="20sp"
-        android:textStyle="bold"/>
-    <ImageView
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:src="@drawable/ic_baseline_contact_support_24"
-        android:layout_alignParentEnd="true"
-        android:layout_margin="20dp"/>
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/grandma"
-        android:layout_below="@id/nameofapp"
-        android:layout_margin="0dp"/>
+        android:layout_height="230dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:id="@+id/introimg"
+        android:layout_marginEnd="0dp"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/loginimage" />
 
     <RelativeLayout
         android:id="@+id/rr"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/sharp_rect"
+        android:background="@drawable/sharp_rect02"
         android:layout_alignParentBottom="true"
+        android:layout_below="@id/introimg"
+        android:layout_marginTop="-40dp"
         android:padding="10dp">
         <TextView
             android:id="@+id/tt1"
@@ -71,9 +60,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/tx"
-            android:textColor="@color/main01"
+            android:textColor="@color/white"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/sharp_rect02"
+            android:background="@drawable/sharp_rect03"
             android:layout_marginTop="50dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
@@ -83,13 +72,13 @@
             android:id="@+id/Signupbtn"
             style="@style/Widget.AppCompat.Button.Colored"
             android:text="Sign-up"
-            android:textColor="@color/main01"
+            android:textColor="@color/white"
             android:textAllCaps="false"
             android:backgroundTint="@color/main03"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/sharp_rect02"
+            android:background="@drawable/sharp_rect03"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"

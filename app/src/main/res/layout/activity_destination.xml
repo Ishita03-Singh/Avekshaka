@@ -12,8 +12,8 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-       android:textColor="@color/black"
-        android:textColorHint="@color/main06"
+       android:textColor="@color/main05"
+        android:textColorHint="@color/main03"
         android:hint="Credential"
         android:id="@+id/inputCredential"
         app:layout_constraintTop_toBottomOf="@id/wrongText"
@@ -26,7 +26,7 @@ android:layout_margin="50dp"
         android:text="Check Credential"
         app:layout_constraintTop_toBottomOf="@id/inputCredential"
         android:textColor="@color/white"
-        android:backgroundTint="@color/main06"/>
+        android:backgroundTint="@color/main03"/>
     <TextView
         android:id="@+id/wrongText"
         android:layout_width="wrap_content"

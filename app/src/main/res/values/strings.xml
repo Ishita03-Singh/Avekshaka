@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Avekshaka</string>
+    <string name="sign_text"><u>New User? Register Here</u></string>
 
 </resources>

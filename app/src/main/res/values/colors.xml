@@ -8,9 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="main01">#12130F</color>
-    <color name="main02">#5B9279</color>
-    <color name="main03">#EAE6E5</color>
+    <color name="main02">#263238</color>
+    <color name="main03">#ff5722</color>
     <color name="main04">#8FCB9B</color>
-    <color name="main05">#8F8073</color>
+    <color name="main05">#cfd8dc</color>
     <color name="main06">#2A2C2D</color>
 </resources>
