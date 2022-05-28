@@ -43,6 +43,8 @@ public class ExcerciseActivity extends AppCompatActivity {
 
         mEarlyTV.setTextColor(getResources().getColor(R.color.black));
         mEarlyTV.setBackgroundResource(R.drawable.sharp_rect03);
+        mEarlyTV.setBackgroundColor(getResources().g
+                +etColor(R.color.white));
 
 
 
@@ -56,6 +58,7 @@ public class ExcerciseActivity extends AppCompatActivity {
 
         mlatetv.setTextColor(getResources().getColor(R.color.black));
         mlatetv.setBackgroundResource(R.drawable.sharp_rect03);
+        mlatetv.setBackgroundColor(getResources().getColor(R.color.white));
 
         mEarlyTV.setTextColor(getResources().getColor(R.color.white));
         mEarlyTV.setBackgroundColor(getResources().getColor(android.R.color.transparent));
