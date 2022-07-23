@@ -32,7 +32,7 @@ Built with-
 
 <table>
         <tr>
-           <td><img src = "https://github.com/Ishita03-Singh/Avekshaka/blob/master/avekshaka%20snapshots/1656184285606_100.PNG"  width="330"></td>
+           <td><img src = "https://github.com/Ishita03-Singh/Avekshaka/blob/master/avekshaka%20snapshots/1656184285606_100.PNG"  width="330" height="200"></td>
                <td><img src = "https://github.com/Ishita03-Singh/Avekshaka/blob/master/avekshaka%20snapshots/1656184460448_100.PNG" width="330"></td>
            <td><img src = "https://github.com/Ishita03-Singh/Avekshaka/blob/master/avekshaka%20snapshots/1656184295143_100.PNG"  width="330"></td>
            <td><img src = "https://github.com/Ishita03-Singh/Avekshaka/blob/master/avekshaka%20snapshots/1656184303090_100.PNG"  width="330"></td>
